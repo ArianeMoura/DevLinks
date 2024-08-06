@@ -37,6 +37,7 @@ body {
   /* background: url(./assets/bg-mobile.jpg) no-repeat top center/cover; */
   background: var(--bg-url) no-repeat top center/cover;
   /* essa única propriedade é chamada de shorthand ou atalho */
+  height: 100vh;
 }
 
 /* O * é um seletor universal, significa que irá aplicar para todos os elementos, nesse caso, dentro do body */
@@ -197,4 +198,15 @@ footer {
   padding: 24px 0;
   text-align: center;
   font-size: 14px;
+}
+
+/*media queries */
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
+
+  .light {
+    --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
 }
