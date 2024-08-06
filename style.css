@@ -47,7 +47,8 @@ body * {
 }
 
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   /* height: 712px; altura geramente segue o conteudo da caixa, criou essa altura apenas pra ver a borda */
   /* border: 1px solid red; */
 
