@@ -1,12 +1,12 @@
 # DevLinks
 
-- **Projeto Discover da Rocketseat** 
+<h3 align="center">
+  <strong>Trilha Discover - Rocketseat</strong>
+</h3>
 
 <br>
 
-<p align="center">
   <img alt="Projeto DevLinks" src=".github/preview.jpg" width="100%">
-</p>
 
 🚀 **Tecnologias:**
 
